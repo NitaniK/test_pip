@@ -11,8 +11,8 @@ setup(name="task_help",
       version="0.0.1",
       download_url="https://github.com/NitaniK/test_pip.git",
       python_requires="",
-      install_requires="",
-      extras_require="",
+      install_requires=["numpy>=1.12"],
+      extras_require={},
       packages="",
       classifiers=""
     )
